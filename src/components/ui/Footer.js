@@ -8,6 +8,7 @@ export default function Footer(props) {
         <footer className="clearfix">
             <div className="pull-left buttons">
                 <ButtonWrapper {...props}/>
+                <span>Hello</span>
             </div>
             <div className="pull-left">
                 {`${activeItemCount} items left`}
